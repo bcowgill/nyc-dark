@@ -1,7 +1,7 @@
 {
   "name": "nyc-dark",
   "version": "8.3.2",
-  "description": "Dark color scheme CSS files for nyc / istanbul-reports, the simple, flexible, fun JavaScript test framework for The Browser",
+  "description": "Dark color scheme CSS files for nyc / istanbul-reports, the full-featured javascript coverage tool.",
   "keywords": [
     "nyc",
     "istanbul",
@@ -40,10 +40,6 @@
     "lint": "pnpm run stylelint",
     "lint:fix": "pnpm run stylelint:fix",
     "test": "make test-all",
-    "pretest:dark": "perl -i -pne 's{\"mocha-light\"}{\"mocha-dark\"}g' mocha-dark-test.html",
-    "test:dark": "make test-all",
-    "pretest:light": "perl -i -pne 's{\"mocha-dark\"}{\"mocha-light\"}g' mocha-dark-test.html",
-    "test:light": "make test-all",
     "preversion": "./scripts/pre-version.sh",
     "version": "./scripts/version.sh",
     "prepublishOnly": "./scripts/pre-publishOnly.sh",
