@@ -50,19 +50,27 @@ if [ -z "$REL_VER" ]; then
 	exit 72
 fi
 
-COUNT=2
-if [ "`grep $REL_VER mocha.js | wc -l`" == "$COUNT" ] ; then
-	echo ok "mocha.js" version updated
+COUNT=1
+if [ "`grep $REL_VER prettify.js | wc -l`" == "$COUNT" ] ; then
+	echo ok "prettify.js" version updated
 else
-	echo NOT OK - "mocha.js" does not contain $COUNT release version $REL_VER numbers
+	echo NOT OK - "prettify.js" does not contain $COUNT release version $REL_VER numbers
 	exit 73
 fi
 
 COUNT=1
-if [ "`grep $REL_VER mocha.css | wc -l`" == "$COUNT" ] ; then
-	echo ok "mocha.css" version updated
+if [ "`grep $REL_VER prettify.css | wc -l`" == "$COUNT" ] ; then
+	echo ok "prettify.css" version updated
 else
-	echo NOT OK - "mocha.css" does not contain $COUNT release version $REL_VER numbers
+	echo NOT OK - "prettify.css" does not contain $COUNT release version $REL_VER numbers
+	exit 74
+fi
+
+COUNT=1
+if [ "`grep $REL_VER base.css | wc -l`" == "$COUNT" ] ; then
+	echo ok "base.css" version updated
+else
+	echo NOT OK - "base.css" does not contain $COUNT release version $REL_VER numbers
 	exit 74
 fi
 
