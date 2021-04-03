@@ -1,15 +1,15 @@
 # nyc-dark
 
-A dark color scheme CSS files for coverage tool [nyc](https://www.npmjs.com/package/nyc) / [istanbul-reports](https://www.npmjs.com/package/istanbul-reports), the full-featured javascript coverage tool.
+A dark color scheme CSS files for coverage tool [jest](https://www.npmjs.com/package/jest), [nyc](https://www.npmjs.com/package/nyc) / [istanbul-reports](https://www.npmjs.com/package/istanbul-reports), the full-featured javascript coverage tool.
 
 ## Motivation
 
-To provide a dark color scheme for the browser based [nyc](https://www.npmjs.com/package/nyc) coverage tool.
+To provide a dark color scheme for coverage tools with html output based on [istanbul-reports](https://www.npmjs.com/package/istanbul-reports).
 For accessibility, for those who have visual difficulties or for those who just prefer a dark color theme when viewing their coverage results.
 
 ## Features
 
-In this release (version: 0.0.0) we provide a replacement for `base.css` and `prettify.css` with a dark color scheme for use in istanbul browser based coverage reports.
+In this release (version: 3.0.2) we provide a replacement for `base.css` and `prettify.css` with a dark color scheme for use in istanbul browser based coverage reports.
 * Contains only the dark scheme.
 
 ## Issues
@@ -65,3 +65,4 @@ Every time the coverage output is updated the CSS files will be copied to the ou
 
 ## Release History
 
+* 3.0.2 release to match istanbul-reports stylesheets.
