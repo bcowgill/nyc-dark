@@ -1,0 +1,7 @@
+prettify.source.css
+node_modules
+.git
+.eslintcache
+.stylelintcache
+# emacs lock files should be ignored by stylelint
+.#*.*
