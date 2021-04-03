@@ -10,12 +10,46 @@ For accessibility, for those who have visual difficulties or for those who just 
 ## Features
 
 In this release (version: 0.0.0) we provide a replacement for `base.css` and `prettify.css` with a dark color scheme for use in istanbul browser based coverage reports.
-* Contains both only the dark scheme.
+* Contains only the dark scheme.
 
 ## Issues
 * None known.  Please [report](https://github.com/bcowgill/nyc-dark/issues) any you discover.
 
 ## Usage
+
+After installing *nyc-dark* you need to copy the CSS files to your coverage output directory to view the html output with a dark color scheme.
+
+For example, if you have a *coverage* npm run script already configured you can add a *coverage:dark* script to view the HTML output in a dark theme.
+
+Assuming your coverage tool outputs to `coverage/index.html` then you can configure your `package.json` as follows:
+
+```javascript
+// in package.json:
+"scripts": {
+  "coverage": "nyc mocha ... or jest ...",
+  "coverage:dark": "npm run coverage",
+  "postcoverage:dark": "cp ./node_modules/nyc-dark/*.css coverage/",
+}
+```
+
+Then you run the dark coverage with:
+
+```sh
+npm run coverage:dark
+```
+
+And back to the light coverage with:
+
+```sh
+npm run coverage
+```
+
+If you have the coverage being generated every time a file changes you can have a separate shell script which copies the files every time the coverage updates:
+```sh
+./node_modules/nyc-dark/cp-cover.sh coverage/
+```
+
+Every time the coverage output is updated the CSS files will be copied to the output directory.
 
 ## Color Scheme Differences
 
