@@ -1,6 +1,6 @@
 {
   "name": "nyc-dark",
-  "version": "0.0.0",
+  "version": "3.0.2",
   "description": "Dark color scheme CSS files for jest / nyc / istanbul-reports, the full-featured javascript coverage tool.",
   "keywords": [
     "nyc",
