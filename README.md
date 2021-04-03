@@ -19,11 +19,15 @@ In this release (version: 0.0.0) we provide a replacement for `base.css` and `pr
 
 ## Color Scheme Differences
 
-### Mocha Dark Theme
-<img src="./images/nyc-dark-theme.png" alt="Nyc Dark Theme" />
+### Nyc Dark Theme
+<img src="./images/nyc-dark-theme-index.png" alt="Nyc Dark Theme - Summary Page" />
 
-### Mocha Default Theme
-<img src="./images/nyc-default-theme.png" alt="Nyc Default Theme" />
+<img src="./images/nyc-dark-theme-source.png" alt="Nyc Dark Theme - Source Code" />
+
+### Nyc Default Theme
+<img src="./images/nyc-default-theme-index.png" alt="Nyc Default Theme - Summary Page" />
+
+<img src="./images/nyc-default-theme-source.png" alt="Nyc Default Theme - Source Code" />
 
 ## Release History
 
