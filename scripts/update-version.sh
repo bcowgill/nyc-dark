@@ -35,5 +35,6 @@ function check_version {
 }
 
 check_version README.md
-check_version mocha.js
-check_version mocha.css
+check_version base.css
+check_version prettify.css
+check_version prettify.js
