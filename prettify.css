@@ -1,6 +1,6 @@
 /* "version": "3.0.2", from istanbul-reports */
 .pln {
-	color: #000;
+	color: yellow; /* BSAC was #000; */
 }
 
 @media screen {
@@ -9,7 +9,7 @@
 	}
 
 	.kwd {
-		color: #008;
+		color: blue; /* BSAC was #008; */
 	}
 
 	.com {
@@ -17,11 +17,11 @@
 	}
 
 	.typ {
-		color: #606;
+		color: magenta; /* BSAC was #606; */
 	}
 
 	.lit {
-		color: #066;
+		color: cyan; /* BSAC was #066; */
 	}
 
 	.clo,
