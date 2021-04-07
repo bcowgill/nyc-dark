@@ -9,7 +9,7 @@ For accessibility, for those who have visual difficulties or for those who just 
 
 ## Features
 
-In this release (version: 3.0.2) we provide a replacement for `base.css` and `prettify.css` with a dark color scheme for use in istanbul browser based coverage reports.
+In this release (version: 3.0.3) we provide a replacement for `base.css` and `prettify.css` with a dark color scheme for use in istanbul browser based coverage reports.
 * Contains only the dark scheme.
 
 ## Issues
@@ -66,3 +66,4 @@ Every time the coverage output is updated the CSS files will be copied to the ou
 ## Release History
 
 * 3.0.2 release to match istanbul-reports stylesheets.
+* 3.0.3 patch fix cp-cover.sh and improve dark scheme syntax highligh contrast.
